@@ -1,0 +1,698 @@
+main {
+  background-color: #000000;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7eefcc;
+}
+
+.header-login h1 {
+  position: relative;
+  padding-bottom: 104px;
+  padding-top: 130px;
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header-login h1:before {
+  content: url(../image/index-logo.svg);
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.login {
+  padding: 65px 40px;
+}
+
+.input-block {
+  display: flex;
+}
+
+.input-icon {
+  color: #b8a6e4;
+  font-size: 20px;
+  margin-right: 10%;
+}
+
+.input-form {
+  width: 100%;
+}
+
+.input-form label {
+  font-family: 'Karla', sans-serif;
+  color: #b8a6e4;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.input-form input {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.input-btn {
+  width: 100%;
+  padding: 15px;
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  font-size: 19px;
+  font-weight: 700;
+  background-color: #b8a6e4;
+  border: none;
+}
+
+.menu-header {
+  background: black;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.menu-header-btn {
+  color: white;
+  font-size: 22px;
+}
+
+.menu-header-title {
+  width: 100%;
+}
+
+.menu-header-title h2 {
+  font-family: Karla;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.header-registration {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #7eefcc;
+  padding: 0 30px;
+}
+
+.header-registration h1 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.registration {
+  position: relative;
+  padding: 65px 40px;
+}
+
+.registration-foto {
+  position: absolute;
+  top: -8%;
+  right: 10%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+}
+
+.header-demo {
+  background-color: #7eefcc;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header-demo-img {
+  background-image: url(../image/phone-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 75%;
+  min-width: 256px;
+  min-height: 61vh;
+}
+
+.footer-demo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b8a6e4;
+  padding: 30px;
+}
+
+.footer-demo h1 {
+  font-family: Karla;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.footer-demo p {
+  font-family: Karla;
+  color: #000000;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-demo-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-demo-progress a {
+  font-family: Karla;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.progress-pointblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointblock-point {
+  border-radius: 50%;
+  background-color: #000000;
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+}
+
+.pointblock-point-active {
+  box-sizing: initial;
+  border: 4px solid white;
+}
+
+.header-profile {
+  background-color: #7eefcc;
+  padding: 100px 0px;
+}
+
+.profile {
+  padding: 60px 40px;
+  padding-top: 0;
+  margin-top: -110px;
+}
+
+.profile-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-header-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+  border-radius: 50%;
+  background-color: #b8a6e4;
+  width: 65px;
+  height: 65px;
+}
+
+.profile-header h1 {
+  font-family: Karla;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+  width: 10%;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  background-image: url(../image/profile-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.profile-info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-info-block:last-child {
+  margin-left: 43px;
+  align-items: flex-end;
+}
+
+.info-work {
+  font-family: Karla;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.info-work-sity {
+  font-family: Karla;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+}
+
+.info-line {
+  border: 1px solid gray;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.info-hobby {
+  font-family: Karla;
+  color: #b8a6e4;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.info-number {
+  font-family: Karla;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: right;
+  margin: 0;
+}
+
+.info-number-title {
+  font-family: Karla;
+  color: #b8a6e4;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.footer-profile {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.footer-profile-btn {
+  color: #b8a6e4;
+  font-size: 30px;
+}
+
+.header-messages {
+  background-color: #7eefcc;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-messages h1 {
+  font-family: Karla;
+  color: #000000;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+  font-size: 30px;
+  margin: 0;
+}
+
+.messages {
+  padding: 30px;
+}
+
+.messages-header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.messages-header-title h2 {
+  font-family: Karla;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+
+.messages-header-title a {
+  color: white;
+  font-size: 20px;
+}
+
+.messages-box {}
+
+.messages-block {
+  display: flex;
+  margin: 35px 0;
+}
+
+.messages-block-img {
+  width: 80px;
+  height: 80px;
+  background-image: url(../image/ava-message-1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.messages-block-info {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.messages-block-info-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.messges-name {
+  font-family: Karla;
+  color: #b8a6e4;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+
+.messages-time {
+  font-family: Karla;
+  color: #b8a6e4;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.messages-title {
+  font-family: Karla;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.footer-messages {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer-messages-btn {
+  color: #b8a6e4;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px;
+  border-bottom: 4px solid transparent;
+}
+
+.footer-messages-btn:hover {
+  border-color: black;
+}
+
+.footer-messages-pinkbtn {
+  position: absolute;
+  top: -32px;
+  left: 43%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+  border-radius: 50%;
+  background-color: #b8a6e4;
+  width: 65px;
+  height: 65px;
+  box-shadow: 0px 40px 60px 0px rgba(0, 0, 0, 0.2);
+}
+
+.chat {
+  padding: 30px;
+  background-color: black;
+  border-top: 2px solid grey;
+  min-height: 500px;
+}
+
+.incoming {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.outgoing {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.avatar-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-image: url(../image/chat-ava-1.png);
+}
+
+.time {
+  margin: 0;
+  margin-top: 12px;
+  font-family: Karla;
+  color: #b8a6e4;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-block {
+  margin: 0 10px;
+  width: 100%;
+}
+
+.text {
+  font-family: Karla;
+  color: #000000;
+  background: #7be9c7;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  padding: 15px;
+  margin: 0;
+}
+
+.footer-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+}
+
+.footer-chat span {
+  display: block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+#chat {
+  font-family: Karla;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.33;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.enter-btn {
+  position: absolute;
+  right: 26px;
+  top: -30px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: black;
+  border-radius: 50%;
+  background-color: #b8a6e4;
+  width: 65px;
+  height: 65px;
+  box-shadow: 0px 40px 60px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-search {
+  background-color: #7eefcc;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-search h1 {
+  font-family: Karla;
+  color: #000000;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+  font-size: 30px;
+  margin: 0;
+}
+
+.search {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input {
+  color: #b8a6e4;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#search {
+  margin: 0;
+  margin-left: 29px;
+  border: none;
+  width: 100%;
+  font-family: Karla;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.search-line {
+  width: 100%;
+  border: 1px solid grey;
+  margin: 30px 0;
+}
+
+.user {
+  display: flex;
+}
+
+.user-avatar {
+  width: 80px;
+  height: 65px;
+  background-image: url(../image/user-ava-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.user-info {
+  width: 100%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-name {
+  font-family: Karla;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.user-time {
+  font-family: Karla;
+  color: #b8a6e4;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.camera {
+  background: linear-gradient(to bottom, rgba(106, 107, 106, 0.3) 0%, rgba(106, 107, 106, 0.3) 100%), url(../image/camera-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.camera-header {
+  color: white;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.camera-footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.camera-footer a {
+  color: black;
+  font-size: 30px;
+}
+.camera-focus {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  color: white;
+}
