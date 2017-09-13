@@ -11,8 +11,8 @@ main {
 
 .header-login h1 {
   position: relative;
-  padding-bottom: 104px;
-  padding-top: 130px;
+  padding-bottom: 29px;
+  padding-top: 150px;
   font-family: 'Karla', sans-serif;
   color: #000000;
   font-size: 100px;
@@ -23,12 +23,12 @@ main {
 .header-login h1:before {
   content: url(../image/index-logo.svg);
   position: absolute;
-  top: 40px;
+  top: 50px;
   right: 0;
 }
 
 .login {
-  padding: 65px 40px;
+  padding: 65px 20px;
 }
 
 .input-block {
@@ -78,7 +78,7 @@ main {
   background: black;
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding: 30px 15px;
   padding-bottom: 10px;
 }
 
@@ -289,7 +289,7 @@ main {
 }
 
 .profile {
-  padding: 60px 40px;
+  padding: 60px 10px;
   padding-top: 0;
   margin-top: -110px;
 }
@@ -445,7 +445,7 @@ main {
 }
 
 .messages {
-  padding: 30px;
+  padding: 30px 15px;
 }
 
 .messages-header-title {
@@ -677,7 +677,7 @@ main {
 }
 
 .search {
-  padding: 30px;
+  padding: 30px 15px;
   display: flex;
   flex-direction: column;
 }
@@ -803,7 +803,7 @@ main {
 }
 
 .gallery {
-  padding: 30px;
+  padding: 30px 15px;
   margin-top: -155px;
   position: relative;
 }
@@ -924,7 +924,7 @@ main {
 .stats {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 30px 15px;
   margin-top: -90px;
 }
 
